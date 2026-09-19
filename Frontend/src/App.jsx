@@ -6,6 +6,12 @@ import Results from "./pages/Results.jsx";
 export default function App() {
   return (
     <>
+      <div className="bg">
+        <span className="blob b1" />
+        <span className="blob b2" />
+        <span className="blob b3" />
+      </div>
+
       <Navbar />
       <main className="container">
         <Routes>
